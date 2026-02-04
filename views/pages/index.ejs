@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Michael Alfred Afia">
+    <title>Welcome To Autocorrect Tool 🌟</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.js"></script>
+</head>
+<body>
+    <div class="app_navbar">
+        <div id="navbar_logo_area">
+            <img id="navbar_logo" src="assets/logo.png" alt="">
+            <span id="logo_text"><span id="txt_start">Autocorrect</span><span id="txt_end">Tool</span></span>
+        </div>
+
+        <div id="about_icon_area" data-tooltip="About" data-position="left center">
+            <img id="about_icon" src="assets/about.png" alt="">
+        </div>
+    </div>
+
+    <div class="main-body">
+        <h1 class="headline headline--title headline--center headline--gradient-x">Write. Correct. Suggest.</h1>
+        <p id="head_content">AutocorrectTool's grammar, style, and spell checker will improve your sentences and words easily. Try it below:</p>
+        <div class="auto_correct_box">
+            <div class="caveat_padding">
+                <div id="first_state">
+                    <div id="x_top_slead">
+                        <div id="lang_path">
+                            <div id="eng_xcc">
+                                <img id="us-flag" src="assets/united-states.png" alt="">
+                                <span id="lang_text">English</span>
+                            </div>
+                        </div>
+
+                        <div id="x_top_slead_btns">
+                            <button id="copy_btn">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 1024 1024"><path fill="#000000" d="M768 832a128 128 0 0 1-128 128H192A128 128 0 0 1 64 832V384a128 128 0 0 1 128-128v64a64 64 0 0 0-64 64v448a64 64 0 0 0 64 64h448a64 64 0 0 0 64-64h64z"/><path fill="#000000" d="M384 128a64 64 0 0 0-64 64v448a64 64 0 0 0 64 64h448a64 64 0 0 0 64-64V192a64 64 0 0 0-64-64H384zm0-64h448a128 128 0 0 1 128 128v448a128 128 0 0 1-128 128H384a128 128 0 0 1-128-128V192A128 128 0 0 1 384 64z"/></svg>
+                                <span id="copy_txt">Copy</span>
+                            </button>
+
+                            <button id="trash_btn">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 24 24" fill="none">
+                                    <path d="M20 8.70007H4C3.90151 8.70007 3.80398 8.68067 3.71299 8.64298C3.62199 8.60529 3.53931 8.55005 3.46967 8.4804C3.40003 8.41076 3.34478 8.32808 3.30709 8.23709C3.2694 8.14609 3.25 8.04856 3.25 7.95007C3.25 7.85158 3.2694 7.75405 3.30709 7.66306C3.34478 7.57207 3.40003 7.48939 3.46967 7.41974C3.53931 7.3501 3.62199 7.29486 3.71299 7.25716C3.80398 7.21947 3.90151 7.20007 4 7.20007H20C20.1989 7.20007 20.3897 7.27909 20.5303 7.41974C20.671 7.5604 20.75 7.75116 20.75 7.95007C20.75 8.14899 20.671 8.33975 20.5303 8.4804C20.3897 8.62106 20.1989 8.70007 20 8.70007Z" fill="#000000"/>
+                                    <path d="M16.44 20.75H7.56C7.24309 20.7717 6.92503 20.7303 6.62427 20.6281C6.3235 20.5259 6.04601 20.3651 5.80788 20.1548C5.56975 19.9446 5.37572 19.6892 5.23704 19.4034C5.09836 19.1177 5.01779 18.8072 5 18.49V8.00005C5 7.80113 5.07902 7.61037 5.21967 7.46972C5.36032 7.32906 5.55109 7.25005 5.75 7.25005C5.94891 7.25005 6.13968 7.32906 6.28033 7.46972C6.42098 7.61037 6.5 7.80113 6.5 8.00005V18.49C6.5 18.9 6.97 19.25 7.5 19.25H16.38C16.94 19.25 17.38 18.9 17.38 18.49V8.00005C17.38 7.78522 17.4653 7.57919 17.6172 7.42729C17.7691 7.27538 17.9752 7.19005 18.19 7.19005C18.4048 7.19005 18.6109 7.27538 18.7628 7.42729C18.9147 7.57919 19 7.78522 19 8.00005V18.49C18.9822 18.8072 18.9016 19.1177 18.763 19.4034C18.6243 19.6892 18.4303 19.9446 18.1921 20.1548C17.954 20.3651 17.6765 20.5259 17.3757 20.6281C17.075 20.7303 16.7569 20.7717 16.44 20.75ZM16.56 7.75005C16.4611 7.75139 16.363 7.73291 16.2714 7.6957C16.1798 7.65848 16.0966 7.60329 16.0267 7.53337C15.9568 7.46346 15.9016 7.38024 15.8644 7.28864C15.8271 7.19704 15.8087 7.09891 15.81 7.00005V5.51005C15.81 5.10005 15.33 4.75005 14.81 4.75005H9.22C8.67 4.75005 8.22 5.10005 8.22 5.51005V7.00005C8.22 7.19896 8.14098 7.38972 8.00033 7.53038C7.85968 7.67103 7.66891 7.75005 7.47 7.75005C7.27109 7.75005 7.08032 7.67103 6.93967 7.53038C6.79902 7.38972 6.72 7.19896 6.72 7.00005V5.51005C6.75872 4.88136 7.04203 4.29281 7.50929 3.87041C7.97655 3.44801 8.5906 3.22533 9.22 3.25005H14.78C15.4145 3.21723 16.0362 3.43627 16.51 3.8595C16.9838 4.28273 17.2713 4.87592 17.31 5.51005V7.00005C17.3113 7.09938 17.2929 7.19798 17.2558 7.29013C17.2187 7.38228 17.1637 7.46615 17.0939 7.53685C17.0241 7.60756 16.941 7.6637 16.8493 7.70201C16.7577 7.74033 16.6593 7.76006 16.56 7.76005V7.75005Z" fill="#000000"/>
+                                    <path d="M10.22 17.0001C10.0219 16.9975 9.83263 16.9177 9.69253 16.7776C9.55244 16.6375 9.47259 16.4482 9.47 16.2501V11.7201C9.47 11.5212 9.54902 11.3304 9.68967 11.1898C9.83032 11.0491 10.0211 10.9701 10.22 10.9701C10.4189 10.9701 10.6097 11.0491 10.7503 11.1898C10.891 11.3304 10.97 11.5212 10.97 11.7201V16.2401C10.9713 16.3394 10.9529 16.438 10.9158 16.5302C10.8787 16.6223 10.8237 16.7062 10.7539 16.7769C10.6841 16.8476 10.601 16.9037 10.5093 16.9421C10.4177 16.9804 10.3193 17.0001 10.22 17.0001Z" fill="#000000"/>
+                                    <path d="M13.78 17.0001C13.5811 17.0001 13.3903 16.9211 13.2497 16.7804C13.109 16.6398 13.03 16.449 13.03 16.2501V11.7201C13.03 11.5212 13.109 11.3304 13.2497 11.1898C13.3903 11.0491 13.5811 10.9701 13.78 10.9701C13.9789 10.9701 14.1697 11.0491 14.3103 11.1898C14.451 11.3304 14.53 11.5212 14.53 11.7201V16.2401C14.53 16.4399 14.4513 16.6317 14.3109 16.774C14.1706 16.9162 13.9798 16.9975 13.78 17.0001Z" fill="#000000"/>
+                                </svg>
+                                <span id="trash_txt">Delete</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="ui form">
+                        <div class="field">
+                          <textarea id="text_data" placeholder="Enter or paste your text here to check it for grammar and spelling mistakes ..."></textarea>
+                          <div id="text_data_output">
+                            <div id="input_area">
+                                <p id="user_input_text">Your text:</p>
+                                <p id="user_input"></p>
+                            </div>
+
+                            <div>----------------------------------------------------</div>
+
+                            <div id="output_area">
+                                <p id="user_output_text">Autocorrected text:</p>
+                                <p id="user_output"></p>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    
+                    <div id="x_bottom_slead">
+                        <p id="bottom_text">Characters &nbsp;<span id="char_count">0</span>&nbsp;&nbsp;&nbsp;&nbsp;Words &nbsp;<span id="word_count">0</span></p>
+                        
+                        <div id="bottom_right">
+                            <span id="load_text">
+                                <span>Checking text</span>
+                                <div class="ui tiny loader" id="loader_ico"></div>
+                            </span>
+                            <div id="error_indicator">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#FFFFFF" width="16px" height="16px" viewBox="0 0 32 32" stroke="#FFFFFF">
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0"/>
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <g id="SVGRepo_iconCarrier">
+                                    <path d="M5 16.577l2.194-2.195 5.486 5.484L24.804 7.743 27 9.937l-14.32 14.32z"/>
+                                    </g>    
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="second_state">
+                    <div id="y_top_slead">
+                        <div id="panel_ctrl">
+                            <div id="btn_cvv">
+                                <button data-btn="1" class="active_seg_btn pad_btn" id="corr_btn">
+                                    <span id="slid1">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 24 24" fill="none">
+                                            <g id="SVGRepo_bgCarrier" stroke-width="0"/>
+                                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <g id="SVGRepo_iconCarrier"> <path opacity="0.1" d="M7 10.32C7 7.58598 7.58598 7 10.32 7H13.68C16.414 7 17 7.58598 17 10.32V13.68C17 16.414 16.414 17 13.68 17H10.32C7.58598 17 7 16.414 7 13.68V10.32Z" fill="#FFFFFF"/> <path d="M21 3L3 3" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> <path d="M21 21L3 21" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> <path d="M7 10.32C7 7.58598 7.58598 7 10.32 7H13.68C16.414 7 17 7.58598 17 10.32V13.68C17 16.414 16.414 17 13.68 17H10.32C7.58598 17 7 16.414 7 13.68V10.32Z" stroke="#FFFFFF" stroke-width="2"/> </g>   
+                                        </svg>
+                                    </span>
+                                    
+                                    <span id="pad_txt1">Correct</span>
+                                </button>
+                            </div>
+
+                            <div id="btn_cvx">
+                                <button data-btn="2" class="pad_btn" id="sugg_btn">
+                                    <span id="slid2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 24 24" fill="none">
+                                            <g id="SVGRepo_bgCarrier" stroke-width="0"/>
+                                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <g id="SVGRepo_iconCarrier"> <path d="M7.83331 13.6C8.258 14.4031 8.97942 15.0676 9.88885 15.4934C10.7983 15.9191 11.8465 16.083 12.8755 15.9604C13.9045 15.8378 14.8586 15.4353 15.594 14.8136L17 13.7451M17 16V13.6H14.5M16.1667 10.4C15.742 9.59687 15.0206 8.93238 14.1111 8.50664C13.2017 8.08091 12.1535 7.91699 11.1245 8.03959C10.0955 8.16219 9.1414 8.56467 8.40599 9.18637L7 10.2549M7 8V10.4H9.5M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="#239aff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/> </g>    
+                                        </svg>
+                                    </span>
+                                    
+                                    <span id="pad_txt2">Suggest</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="correct_index">
+                        <div id="correct_index_intro">
+                            <div id="correct_index_image_space">
+                                <img id="archive_png" src="assets/archive.png" alt="">
+                            </div>
+    
+                            <p id="lkk_txt">Instantly Enhance Your Writing</p>
+                            <p id="sub_lkk_txt">To correct your text, simply start typing or choose the option below:</p>
+                            <div id="clickable_panel">
+                                <div id="checker_box">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000" height="15px" width="15px" version="1.1" id="Capa_1" viewBox="0 0 493.894 493.894" xml:space="preserve">
+                                        <g>
+                                            <g id="Icons_20_">
+                                                <g>
+                                                    <path d="M418.152,0H203.408c-12.427,0-24.325,4.953-33.101,13.755L42.654,142.01c-8.715,8.754-13.602,20.597-13.602,32.944     v272.243c0,25.789,20.916,46.697,46.705,46.697h342.395c25.788,0,46.69-20.908,46.69-46.697v-400.5     C464.842,20.91,443.94,0,418.152,0z M431.914,447.197c0,7.597-6.175,13.769-13.763,13.769H75.757     c-7.605,0-13.781-6.172-13.781-13.769V184.238h131.322c12.088,0,21.928-9.839,21.928-21.939V32.927h202.926     c7.587,0,13.763,6.172,13.763,13.77v400.5H431.914z"/>
+                                                    <path d="M339.277,254.455H154.646c-13.632,0-24.695,11.054-24.695,24.695s11.063,24.695,24.695,24.695h184.631     c13.636,0,24.695-11.054,24.695-24.695S352.912,254.455,339.277,254.455z"/>
+                                                    <path d="M339.277,172.139h-69.388c-13.635,0-24.694,11.054-24.694,24.694c0,13.642,11.059,24.695,24.694,24.695h69.388     c13.636,0,24.695-11.053,24.695-24.695C363.971,183.193,352.912,172.139,339.277,172.139z"/>
+                                                    <path d="M339.277,89.825h-69.388c-13.635,0-24.694,11.05-24.694,24.695c0,13.641,11.059,24.694,24.694,24.694h69.388     c13.636,0,24.695-11.054,24.695-24.694C363.971,100.876,352.912,89.825,339.277,89.825z"/>
+                                                    <path d="M339.277,347.421H154.646c-13.632,0-24.695,11.053-24.695,24.694s11.063,24.695,24.695,24.695h184.631     c13.636,0,24.695-11.054,24.695-24.695S352.912,347.421,339.277,347.421z"/>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </div>
+    
+                                <span id="exa_txt_lnk">Insert an example text</span>
+                            </div>
+                        </div>
+
+                        <div id="correct_index_error">
+                            <div id="correct_index_image_space">
+                                <img id="archive_png" src="assets/error.png" alt="">
+                            </div>
+
+                            <p id="lkk_txt">An error occured</p>
+                            <p id="sub_lkk_txt">Please check your internet connection or try again in a few seconds.</p>
+                        </div>
+
+                        <div class="ui segment" id="correct_index_loader">
+                            <div class="ui active inverted dimmer">
+                              <div class="ui text loader">Loading</div>
+                            </div>
+                            <p></p>
+                        </div>
+
+                        <div id="correct_index_no_error">
+                            <div id="correct_index_image_space">
+                                <img id="archive_png" src="assets/success.png" alt="">
+                            </div>
+
+                            <p id="lkk_txt">Splendid!</p>
+                            <p id="sub_lkk_txt">No errors were found</p>
+                        </div>
+
+                        <div id="correct_index_result">
+                            <div id="list_ribbon"></div>
+                        </div>
+                    </div>
+
+                    <div id="suggest_index">
+                        <div id="suggest_index_intro">
+                            <div id="suggest_index_image_space">
+                                <img id="bulb_png" src="assets/lightbulb.png" alt="">
+                            </div>
+    
+                            <p id="lkk_txt">Suggestions To Improve Your Writing</p>
+                            <p id="sub_lkk_txt">Type and get suggestions to make your writing better</p>
+                        </div>
+
+                        <div id="suggest_index_error">
+                            <div id="correct_index_image_space">
+                                <img id="archive_png" src="assets/error.png" alt="">
+                            </div>
+
+                            <p id="lkk_txt">An error occured</p>
+                            <p id="sub_lkk_txt">Please check your internet connection or try again in a few seconds.</p>
+                        </div>
+
+                        <div class="ui segment" id="suggest_index_loader">
+                            <div class="ui active inverted dimmer">
+                              <div class="ui text loader">Loading</div>
+                            </div>
+                            <p></p>
+                        </div>
+
+                        <div id="suggest_index_no_error">
+                            <div id="correct_index_image_space">
+                                <img id="archive_png" src="assets/success.png" alt="">
+                            </div>
+
+                            <p id="lkk_txt">Nice work!</p>
+                            <p id="sub_lkk_txt">No suggestions found</p>
+                        </div>
+
+                        <div id="suggest_index_result"></div>
+
+                        <div id="suggest_index_no_suggestions">
+                            <div id="correct_index_image_space">
+                                <img id="archive_png" src="assets/rejected.png" alt="">
+                            </div>
+
+                            <p id="lkk_txt">Not found</p>
+                            <p id="sub_lkk_txt">No suggestions were found for this text.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="ui modal">
+        <div class="header">About</div>
+        <div class="scrolling content">
+          <p id="about_txt">AutocorrectTool is a platform that is used to correct words, sentences and as well as provide suggestions for 
+            certain words in your sentences. Our mission is to help people write better and more clearly. To accomplish this, we make use
+            of an AI-based technology that simply takes in your sentences and words and analyzes them to search for any grammatical errors or 
+            spelling errors and then provide suggestions to certain words found in them.</p>
+          
+          <p id="meet_team_txt">Meet the team</p>
+
+          <div id="about_user_section">
+            <div id="about_profile">
+                <div id="about_profile_img_space">
+                    <img id="profile_asset" src="team_members/img_1.jpg" alt="">
+                </div>
+                <p id="profile_job">Backend Developer</p>
+                <p id="profile_name">Michael Alfred Afia</p>
+            </div>
+
+            <div id="about_profile">
+                <div id="about_profile_img_space">
+                    <img id="profile_asset" src="team_members/img_2.jpg" alt="">
+                </div>
+                <p id="profile_job">Frontend Developer</p>
+                <p id="profile_name">Anita Williams</p>
+            </div>
+
+            <div id="about_profile">
+                <div id="about_profile_img_space">
+                    <img id="profile_asset" src="team_members/img_3.jpg" alt="">
+                </div>
+                <p id="profile_job">UI/UX Designer</p>
+                <p id="profile_name">Michael Chukwukelo</p>
+            </div>
+          </div>
+        </div>
+        <div class="actions">
+            <div class="ui black deny button">
+              Close
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <span id="footer_txt">
+            © 2023 AutocorrectTool.
+        </span>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
