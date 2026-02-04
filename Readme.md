@@ -1,4 +1,4 @@
-# Autocorrect <img width="32" height="32" alt="logo" src="https://github.com/user-attachments/assets/da96878b-50c3-4399-a2cb-476070eaffab" />
+# AutocorrectTool <img width="32" height="32" alt="logo" src="https://github.com/user-attachments/assets/da96878b-50c3-4399-a2cb-476070eaffab" />
 This is a Node.js/Express web application that provides autocorrect and spell-checking functionality. It's built as a full-stack webapp with both backend logic and a frontend interface.
 
 ## How to Run
