@@ -27,6 +27,8 @@ This is a Node.js/Express web application that provides autocorrect and spell-ch
 - Auto correct text
 - Automatic suggestions based on words provided
 
+⚙ Check out [https://textgears.com/](https://textgears.com/) to generate your own API key
+
 ## Project Status
 This project is no longer actively maintained. It exists as an archive of my web dev work from 2023.
 
